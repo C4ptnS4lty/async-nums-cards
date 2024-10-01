@@ -1,4 +1,4 @@
-let favNumber = 5;
+let favNumber = 37;
 let baseURL = "http://numbersapi.com";
 
 // 1.
@@ -7,7 +7,7 @@ $.getJSON(`${baseURL}/${favNumber}?json`, function(data) {
 });
 
 // 2.
-let favNumbers = [7, 11, 22];
+let favNumbers = [37, 27, 17];
 $.getJSON(`${baseURL}/${favNumbers}?json`, function(data) {
   console.log(data);
 });

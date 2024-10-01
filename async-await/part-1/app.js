@@ -1,4 +1,4 @@
-let favNumber = 5;
+let favNumber = 37;
 let baseURL = "http://numbersapi.com";
 
 // 1.
@@ -9,7 +9,7 @@ async function part1() {
 part1();
 
 // 2.
-const favNumbers = [7, 11, 22];
+const favNumbers = [37, 27, 23];
 async function part2() {
   let data = await $.getJSON(`${baseURL}/${favNumbers}?json`);
   console.log(data);
